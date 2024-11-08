@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 1.85rem;
+    color: #ffbe46;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.20rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color:#ffbe46 ;
+    border-bottom: 3px solid #ffbe46;
+}
+    #project{
+
+    background-color: rgb(44, 33, 33);
+    
+    }
+    #project h2{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom:10px;
+        margin-top: 100px;
+        color: #ffdd77;
+    }
+    .group-card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .project-card{
+        position: relative;
+        height: 200px;
+        width: 300px;
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0   4px 8px rgba(112, 112, 112, 0.519)  ;
+        
+        }
+        .project-image img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        } .project-description{
+            position: absolute;
+            top: 0%;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(49, 47, 47, 0.8);
+            color: #000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: left 0.5s ease;
+        }
+        .project-description h3{
+            margin: 0;
+            font-size: 1.5rem;
+            color: #ffdd77;
+        }
+        .project-description p{
+            margin: 10px 0;
+            padding: 0 20px;
+            font-size:1em ;
+        }
+        .project-card:hover
+        .project-description{
+            left: 0;
+            
+        }      
+        .view-botton{
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff704d;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+    
+    

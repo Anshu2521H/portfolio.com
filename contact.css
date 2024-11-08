@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 1.85rem;
+    color: #ffbe46;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.20rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color:#ffbe46 ;
+    border-bottom: 3px solid #ffbe46;
+}
+#contact{
+    padding: 50px;
+    align-items: center;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #ffa600;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contact-card{
+    width: 1400px;
+    background-color: black;
+    border: 1px solid #ffa600;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px ;
+    height: 400px;
+    text-align: left;
+ }
+ .group-form input {
+    background: rgb(47, 45, 45);
+    outline: none;
+    border: 1px solid #ffa600;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 20px;
+    color: rgb(55, 55, 55);
+    margin-bottom: 25px;
+    margin-top: 5px;
+    width: 1000px;
+}
+.group-form input::placeholder {
+    color: #ffa600;
+    font-size: 15px;
+}
+.group-form input[type="text"]:focus {
+    border-color: #853333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.group-form label {
+    font-size: 2.1rem;
+    color: white;
+    text-align: center;
+    margin: 10px ;
+}
+.google-form label {
+    font-size: 2.1rem;
+    color: white;
+    margin: 10px ;
+    margin-left: 10px;
+    margin-bottom: -100px;
+    margin-top: 100px;
+}
+textarea[id="message"] {
+    background: rgb(47, 45, 45);
+    outline: none;
+    border: 2px solid #ffa600;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+    height: 135px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+textarea[id="message"]::placeholder {
+    color: #ffa600;
+    font-size: 15px;
+    text-align: center;
+}
+textarea[id="message"] :focus {
+    border-color: #853333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+button {
+    display: inline-block;
+    padding: 10px 28px;
+    background-color: black;
+    border-radius: 2rem;
+    font-size: 18px;
+    color: #ff8800;
+    font-weight: 600;
+    border: 2px solid #ff8800;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+button:hover{
+    transform: scale3d(1.03);
+    background-color: #ffb509;
+    color: black;
+    box-shadow: 0 0 5px #f4bb50;
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">ANSHX69</a>
+
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="Blogs.html">Blogs</a>
+            <a href="contact.html" class="active">Contact Me</a>
+        </nav>
+    </header>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p> If you have any questions, concerns, please don’t hesitate to get in touch. I value open communication with our users and are always eager to assist in any way we can.</p> <br>
+        <p>please contact me.....</p>
+            <div class="contact-card">
+                <form id="form">
+                    <div class="group-form">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name" placeholder=" Enter Your name" required>
+                    </div>
+
+                    <div class="group-form">
+                        <label for="email">Email :</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+
+                    <div class="google-form">
+                        <label for="message">Message :</label>
+                    </div>
+                        <textarea type="text" id="message" name="message" placeholder="Type your message" required></textarea>
+
+                    <div>
+                        <button type="submit" id="button">Send message 🚀</button>
+                    </div>
+                </form>
+            </div>
+       
+    </section>
+    <script src="contact.js"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('pgGrqpzLKyiLY4e-q')
+</script>
+</body>
+</html>
